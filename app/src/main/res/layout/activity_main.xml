@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_dice"
+        android:layout_width="379dp"
+        android:layout_height="98dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bangers"
+        android:text="Rzut Kostką"
+        android:textAllCaps="false"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/button_wheel"
+        android:layout_width="380dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bangers"
+        android:text="Koło Fortuny"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/button_coin"
+        android:layout_width="383dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bangers"
+        android:text="Rzut Monetą"
+        android:textSize="48sp" />
+
+</LinearLayout>

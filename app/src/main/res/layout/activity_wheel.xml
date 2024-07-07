@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Reszta układu -->
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="313dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="Back" />
+
+    <EditText
+        android:id="@+id/edit_text_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_back"
+        android:layout_marginTop="16dp"
+        android:hint="Wpisz tutaj" />
+
+    <Button
+        android:id="@+id/button_add_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_item"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bangers"
+        android:text="Dodaj opcję"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_spin"
+        android:layout_width="382dp"
+        android:layout_height="123dp"
+        android:layout_below="@id/button_add_item"
+        android:layout_marginTop="373dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bangers"
+        android:text="Zakręć"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_spin"
+        android:layout_marginTop="-332dp"
+        android:fontFamily="@font/bangers"
+        android:textAlignment="center"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/text_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_result"
+        android:layout_marginTop="-246dp"
+        android:textAlignment="center" />
+</RelativeLayout>

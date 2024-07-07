@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Reszta układu -->
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="295dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/button_flip"
+        android:layout_width="378dp"
+        android:layout_height="128dp"
+        android:layout_below="@id/button_back"
+        android:layout_marginTop="490dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bangers"
+        android:text="Rzuć!"
+        android:textSize="60sp" />
+
+    <ImageView
+        android:id="@+id/coin_image"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/button_flip"
+        android:layout_marginTop="-486dp"
+        android:src="@drawable/coin_heads" />
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:layout_below="@id/coin_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>
